@@ -1,0 +1,54 @@
+*   {
+    font-family: "Algerian", sans-serif;
+    font-size: 25px;
+}
+#heading    {
+    font-family: "Algerian", sans-serif;
+    font-size: 80px;
+}
+#create_account    {
+    height: 600px;
+    width: 500px;
+    border: none;
+    /*margin-top: 50px;*/
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    background: transparent;
+}
+#login  {
+    height: 600px;
+    width: 500px;
+    border: none;
+    /*margin-top: 50px;*/
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    background: transparent;
+}
+#create_account    {
+    height: 600px;
+    width: 500px;
+}
+#create_faculty_link    {
+    height: 600px;
+    width: 500px;
+}
+#login    {
+    height: 600px;
+    width: 500px;
+}
+#create_account:hover  {
+    box-shadow: 5px 5px 10px black;
+}
+#login:hover  {
+    box-shadow: 5px 5px 10px black;
+}
+#create_account:active  {
+    transform: scale(0.95);
+}
+#login:active  {
+    transform: scale(0.95);
+}
