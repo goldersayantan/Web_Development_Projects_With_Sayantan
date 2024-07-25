@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="TodoApp.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Task Tracker</h1>
+            </header>
+            <div id="input_box">
+                <label for="task" id="task_label">Enter Your Task: </label><br/>
+                <input type="text" id="task" placeholder="Enter Task">
+                <button id="add_task">Add Task</button>
+            </div>
+            <h3>Task List:</h3>
+            <div id="all_tasks">
+                <ul></ul>
+            </div>
+        </div>
+    <script src="TodoApp.js"></script>
+    </body>
+</html>

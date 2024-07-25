@@ -1,0 +1,79 @@
+*   {
+    font-family: "Cambria Math", sans-serif;
+}
+body{
+    background: white;
+    background-size: cover;
+}
+#container  {
+    height: 900px;
+    width: 1200px;
+    margin-top: 75px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: left;
+}
+#text1  {
+    font-family: "Algerian", sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+#name_text  {
+    margin-top: 40px;
+}
+.input_box\'s_above_text    {
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+#name{
+    width: 300px;
+}
+#email{
+    width: 700px;
+}
+.input_box    {
+    margin-left: 90px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    height: 35px;
+    font-size: 28px;
+    background: transparent;
+}
+.input_box:hover, .input_box:focus  {
+    box-shadow: 5px 5px 10px black;
+}
+#file   {
+    margin-left: 90px;
+    font-size: 30px;
+}
+#submit_btn {
+    margin-top: 30px;
+    height: 50px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #8432b5;
+    color: white;
+    font-size: 35px;
+    box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+}
+#submit_btn:active {
+    transform: scale(0.95);
+}
+#submission_result  {
+    width: 750px;
+    height: 150px;
+    font-size: 30px;
+    font-family: "Algerian", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,53 @@
+<!-- users.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hod_panel</title>
+    <link rel="stylesheet" href="../stylesheets/hod_panel.css">
+</head>
+<body>
+<center>
+    <p id="heading">HOD PANEL</p><br>
+    <img src="https://static.vecteezy.com/system/resources/previews/011/709/214/non_2x/hr-department-human-resources-manager-searching-for-new-employees-recruiting-process-recruitment-agency-employment-headhunting-business-concept-illustration-vector.jpg" id="image">
+    <table border="2px">
+        <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Phone Number</th>
+            <th>Department</th>
+            <th>Subject Name</th>
+            <th>Subject Code</th>
+            <th>Program Name</th>
+            <th>Date And Time</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% users.forEach(user => { %>
+            <tr>
+                <td><%= user.name %></td>
+                <td><%= user.phone_number %></td>
+                <td><%= user.department %></td>
+                <td><%= user.subject %></td>
+                <td><%= user.code %></td>
+                <td><%= user.program %></td>
+                <td id="currentDateTime" colspan="2"></td>
+            </tr>
+        <% }); %>
+        </tbody>
+    </table>
+</center>
+</body>
+<script>
+    // JavaScript to dynamically set the current date and time
+    function setCurrentDateTime() {
+        var currentDateTime = new Date();
+        var datetimeElement = document.getElementById('currentDateTime');
+        datetimeElement.textContent = 'Date: ' + currentDateTime.toLocaleDateString() + ' Time: ' + currentDateTime.toLocaleTimeString();
+    }
+
+    // Call the function to set the current date and time when the page loads
+    setCurrentDateTime();
+</script>
+</html>

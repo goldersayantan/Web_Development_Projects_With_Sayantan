@@ -1,0 +1,156 @@
+*   {
+    font-family: "Cambria Math", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+body    {
+    background-image: url("https://img.pikbest.com/wp/202344/texture-shading-background-abstract-shades-of-black-and-darkness_9902948.jpg!w700wp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container  {
+    border: 2px solid black;
+    height: 90vh;
+    width: 45vw;
+    margin: 5vh auto 5vh;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+@media only screen and (max-width: 600px) {
+    #container  {
+        width: 85vw;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #container  {
+        width: 65vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #container  {
+        width: 65vw;
+    }
+}
+
+header  {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header h1   {
+    margin: 0.5rem 0;
+
+}
+
+#input_box  {
+    margin-left: 0.8rem;
+}
+
+#task_label {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+#task   {
+    margin-top: 0.25rem;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    width: 40vw;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition-duration: 1s;
+}
+
+#task:focus, #task:hover   {
+    box-shadow: 5px 5px 10px black;
+}
+
+@media only screen and (max-width: 600px) {
+    #task  {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #task  {
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #task  {
+        width: 50vw;
+    }
+}
+
+
+
+#add_task   {
+    margin-top: 0.25rem;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition-duration: 1s;
+}
+
+#add_task:focus, #add_task:hover   {
+    box-shadow: 5px 5px 10px black;
+}
+
+h3  {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#all_tasks  {
+    height: 55%;
+    width: 95%;
+    /*border: 2px solid black;*/
+    margin: 0.5rem auto 0.5rem;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 0.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 320px) {
+    #all_tasks  {
+        height: 52%;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+    #all_tasks  {
+        height: 58%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #all_tasks  {
+        height: 53%;
+    }
+}
+
+li  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    font-size: 0.8rem;
+    background: transparent;
+    border-radius: 3px;
+}

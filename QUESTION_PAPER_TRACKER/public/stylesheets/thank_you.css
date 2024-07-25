@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thank  {
+    font-size: 40px;
+    font-family: "Algerian", sans-serif;
+    margin-top: 22%;
+}

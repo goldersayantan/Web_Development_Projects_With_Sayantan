@@ -1,0 +1,52 @@
+*   {
+    font-family: "Algerian", sans-serif;
+    font-size: 30px;
+}
+body    {
+    background: white;
+    background-size: cover;
+}
+#container  {
+}
+#HOD_sec    {
+    height: 600px;
+    width: 500px;
+    border: none;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    background: transparent;
+}
+#TEACHER_sec    {
+    height: 600px;
+    width: 500px;
+    border: none;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 60px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    background: transparent;
+}
+#HOD_img    {
+    height: 500px;
+    width: 490px;
+}
+#TEACHER_img    {
+    height: 500px;
+    width: 490px;
+}
+#HOD_sec:hover  {
+    box-shadow: 5px 5px 10px black;
+}
+#TEACHER_sec:hover  {
+    box-shadow: 5px 5px 10px black;
+}
+#HOD_sec:active  {
+    transform: scale(0.95);
+}
+#TEACHER_sec:active  {
+    transform: scale(0.95);
+}

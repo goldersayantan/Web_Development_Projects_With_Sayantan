@@ -1,0 +1,131 @@
+*   {
+    font-family: "Cambria Math", sans-serif;
+}
+body    {
+    background: white;
+    background-size: cover;
+}
+#container  {
+    display: flex;
+}
+#vector_image_container {
+    margin-top: 75px;
+    display: inline-block;
+    margin-left: 100px;
+}
+#vector_image   {
+    width: 700px;
+}
+#image_word1 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 80px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#image_word2 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 120px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#input_fields   {
+    height: 780px;
+    width: 600px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+#sign_in_to_your_account {
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#image    {
+    height: 200px;
+    width: 200px;
+}
+#email_text {
+    font-size: 30px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#email  {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+#email:hover {
+    box-shadow: 5px 5px 10px black;
+}
+#password_text  {
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#password   {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+#password:hover {
+    box-shadow: 5px 5px 10px black;
+}
+#sign_in_button   {
+    height: 45px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    background-color: #8432b5;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#sign_in_button:active {
+    transform: scale(0.95);
+}
+
+#forgot_password    {
+    font-size: 20px;
+    margin-left: 400px;
+    text-decoration: none;
+}
+#dont_have_account   {
+    height: 35px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: rgba(46, 47, 47, 0.19) 3px 3px;
+}
+#sign_up    {
+    height: 35px;
+    width: 100px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8432b5;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+#link   {
+    text-decoration: none;
+}
+#sign_up:active  {
+    transform: scale(0.95);
+}
