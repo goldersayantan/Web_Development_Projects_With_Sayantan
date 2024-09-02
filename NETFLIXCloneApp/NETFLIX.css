@@ -6,15 +6,14 @@
             "wdth" 100;
 }
 
-
 ::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
+    display: none;
 }
 
 body    {
     margin: 0;
-    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
-    scrollbar-width: none;     /* For Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 #first_Container    {

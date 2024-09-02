@@ -1,0 +1,348 @@
+*   {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+body    {
+    background-color: black;
+}
+
+.main   {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar    {
+    background-color: black;
+    width: 350px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.main-content   {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player   {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav    {
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.7rem;
+
+}
+
+.nav-option {
+    background-color: #121212;
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover   {
+    opacity: 1;
+}
+
+a   {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-option i   {
+    font-size: 1.25rem;
+}
+
+.nav-option a   {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+#nav-option-home    {
+    opacity: 1;
+}
+
+.library    {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.options    {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img    {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons  {
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i    {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.box    {
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 1rem 1.25rem
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    line-height: 2.5rem;
+
+}
+
+.badge  {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    color: black;
+}
+
+.sticky-nav     {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons   {
+    margin-left: 0.8rem;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.sticky-nav-options button {
+    margin-left: 1rem;
+}
+
+.nav-item   {
+    margin-right: 1rem;
+}
+
+.dark-badge {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .hide   {
+        display: none;
+    }
+
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    opacity: 0.7;
+    margin: 1.5rem;
+}
+
+.card-container     {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.card-info  {
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+}
+
+.music-player   {
+    display: flex;
+}
+
+.current_song   {
+    margin: 0.8rem;
+    display: flex;
+    width: 25%;
+}
+
+.current_song img   {
+    height: 3rem;
+    width: 3rem;
+}
+
+.song-description   {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.singer {
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.love-icon  {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+
+}
+
+.box-icon   {
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+    font-size: 1.5rem;
+}
+
+.other-controls {
+    display: flex;
+    /*margin-left: 400px;*/
+    width: 25%;
+}
+
+
+.smart-display, .que-music, .other-device {
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+    font-size: 1.55rem;
+}
+
+.microphone, .speaker {
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+    font-size: 1.25rem;
+}
+
+.speaker    {
+    margin-top: 0.8rem;
+}
+.microphone {
+    margin-top: 0.8rem;
+}
+
+.range  {
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.player {
+    width: 50%;
+}
+
+.player-controls    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player-control-icon    {
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+
+.player-control-icon:hover  {
+    opacity: 1;
+}
+
+.playback-bar   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar   {
+    width: 70%;
+    /*appearance: none;*/
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

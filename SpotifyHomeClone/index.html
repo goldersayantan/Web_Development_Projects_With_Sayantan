@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/logo.png?raw=true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+<div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option" id="nav-option-home">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option" >
+                    <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/library_icon.png?raw=true" alt="library"/>
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">
+                        Create your first playlist
+                    </p>
+                    <p class="box-p2">
+                        It's easy, we'll help you
+                    </p>
+                    <button class="badge">Create Playlists</button>
+                </div>
+            </div>
+
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">
+                        Let's find some podcasts to follow
+                    </p>
+                    <p class="box-p2">
+                        We'll keep you updated on episodes
+                    </p>
+                    <button class="badge">Browse podcast</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/backward_icon.png?raw=true" alt="backward_icon">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/forward_icon.png?raw=true" class="hide" alt="forward_icon"/>
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-arrow-down" style="margin-right: 5px; margin-top: 5px"></i>Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>
+            </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card1img.jpeg?raw=true" alt="card1" class="card-image">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks...</p>
+            </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaO9oNwP0hT6rCxrP1_xtB2Q_ORBTsB3cmw&s" alt="card1" class="card-image">
+                <p class="card-title">Release Radar</p>
+                <p class="card-info">Catch all the latest music from artists you follow...</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMdY2TqiIUFdfbTL2LBAiGGR6KDi_8XwhXA&s" alt="card1" class="card-image">
+                <p class="card-title">Shreya's voice</p>
+                <p class="card-info">Shreya Ghoshal all time hits. Best collection of...</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJsWq1HJ0VzbYn_xXNtTTOU6lqLI9cWOP5gg&s" alt="card1" class="card-image">
+                <p class="card-title">Raval Rhythms</p>
+                <p class="card-info">The essential tracks, all in one playlist! #spreadlove...</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/originals/3e/4e/5f/3e4e5f0f7e574d5110dd888f0146aba3.jpg" alt="card1" class="card-image">
+                <p class="card-title">Monali Vibes</p>
+                <p class="card-info">The essential tracks, all in one playlist! #spreadlove...</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRms7E5dXVmNbAC0qfKcx-IMTUAT10ON4AgtQ&s" alt="card1" class="card-image">
+                <p class="card-title">Kishore Kumar</p>
+                <p class="card-info">All the golden songs of Kishore Kumar in one playlist...</p>
+            </div>
+        </div>
+        <h2>Featured charts</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card5img.jpeg?raw=true" alt="card1" class="card-image">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your weekly updates of the most played tracks...</p>
+            </div>
+            <div class="card">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card6img.jpeg?raw=true" alt="card1" class="card-image">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Here are the top tracks that have been on heavy...</p>
+            </div>
+            <div class="card">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card1img.jpeg?raw=true" alt="card1" class="card-image">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks...</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="current_song">
+            <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card2img.jpeg?raw=true" alt="song-playing">
+            <div class="song-description">
+                <p class="song-name">Mahiye Jinna Sohna </p>
+                <p class="singer">Darshan Raval</p>
+            </div>
+            <i class="fa-regular fa-heart love-icon"></i>
+            <span class="material-symbols-outlined box-icon">position_bottom_right</span>
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon1.png?raw=true" class="player-control-icon" alt="shuffle">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon2.png?raw=true" class="player-control-icon" alt="pre-song">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon3.png?raw=true" class="player-control-icon" style="opacity: 1; height: 2rem" alt="play-pause">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon4.png?raw=true" class="player-control-icon" alt="next-song">
+                <img src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon5.png?raw=true" class="player-control-icon" alt="loop">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" step="1" class="progress-bar"/>
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+        <div class="other-controls">
+            <span class="material-symbols-outlined smart-display">smart_display</span>
+            <i class="fa-solid fa-microphone microphone"></i>
+            <span class="material-symbols-outlined que-music">queue_music</span>
+            <span class="material-symbols-outlined other-device">devices_other</span>
+            <i class="fa-solid fa-volume-high speaker"></i>
+            <input type="range" class="range">
+        </div>
+    </div>
+</div>
+</body>
+</html>
