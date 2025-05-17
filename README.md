@@ -15,6 +15,7 @@ This repository contains some basic and samll projects.
 - Responsive **NETFLIX** website (Frontend)
 - Spotify Home Page clone
 - Question Paper Tracker
+- Todo App
 
 ## 🚀 Projects Included
 
